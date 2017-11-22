@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#ffffff"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <smartworld.com.wcjsview.StickyScrollView
+        android:id="@+id/act_solution_4_sv"
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/layout_top"/>
+
+
+
+
+
+         <LinearLayout
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+
+             <smartworld.com.wcjsview.ListViewForScrollView
+                 android:id="@+id/list_left"
+                 android:layout_weight="1"
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent">
+             </smartworld.com.wcjsview.ListViewForScrollView>
+
+             <smartworld.com.wcjsview.SyncHorizontalScrollView
+                 android:id="@+id/sy_contain"
+                 android:fillViewport="true"
+                 android:layout_weight="4"
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent">
+
+
+                 <LinearLayout
+                     android:background="@android:color/darker_gray"
+                     android:id="@+id/ll_container"
+                     android:orientation="vertical"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent">
+
+                 </LinearLayout>
+
+             </smartworld.com.wcjsview.SyncHorizontalScrollView>
+
+
+         </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </smartworld.com.wcjsview.StickyScrollView>
+
+</LinearLayout>

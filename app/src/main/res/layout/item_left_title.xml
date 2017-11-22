@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TextView   xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@android:color/darker_gray"
+            android:id="@+id/tv_left_title"
+        android:gravity="center"
+        android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+        android:text="基本参数"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+
