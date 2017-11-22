@@ -4,5 +4,6 @@ BannerView
 来不断的改变view的坐标，切换的时候有动画的效果，这里采用valueAnimator在一定的时间内，不断的去改变view的位置
 
 
+![](https://github.com/ZhengJX/BannerView/raw/master/screenshot/gif.gif)
 
 <br><br><br><br>具体的实现方式可以看[我的博客](http://blog.csdn.net/qq_16782391/article/details/78604364 "悬停显示")
